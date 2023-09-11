@@ -1,0 +1,44 @@
+.avatar-component{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(255, 220, 43);
+    border-radius: 30px 0 0 30px;
+}
+.avatar-image-component{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-image-component .avatar-image{
+    font-size: 150px;
+}
+.avatar-component-text{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.avatar-component-text h1{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.avatar-button-component{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-button-component button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(255, 220, 43);
+    background-color: rgb(37, 36, 36);
+    border: none;
+}
